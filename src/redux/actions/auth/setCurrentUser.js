@@ -1,6 +1,5 @@
 import setAuthToken from "../../../helpers/setAuthToken";
 import { AUTH } from "../../type";
-const API = process.env.REACT_APP_API;
 
 // Set logged in user
 export const setCurrentUser = decoded => async dispatch => {

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducers should handle AUTH type 1`] = `
+Object {
+  "login": Object {
+    "isAuthenticated": true,
+  },
+}
+`;
+
+exports[`reducers should handle ERROR 1`] = `
+Object {
+  "login": Object {
+    "isAuthenticated": false,
+    "isLoading": false,
+    "message": "",
+    "token": "",
+  },
+}
+`;
+
+exports[`reducers should handle LOADING 1`] = `
+Object {
+  "login": Object {
+    "isAuthenticated": false,
+    "isLoading": true,
+    "message": "",
+    "token": "",
+  },
+}
+`;
+
+exports[`reducers should handle LOGIN success 1`] = `
+Object {
+  "login": Object {
+    "isAuthenticated": true,
+    "isLoading": false,
+    "message": "",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjM3OTU5OTI2NDcyLCJkYXRhIjoiMDcwNTE4MTcwNyIsImlhdCI6MTU4MTY2MDAwM30.lUNx_3MCdDxzLvXNyPBjZ9nxe09J62F5M8byF7wvPMg",
+  },
+}
+`;
+
+exports[`reducers should return the initial state 1`] = `
+Object {
+  "login": Object {
+    "isAuthenticated": false,
+    "isLoading": false,
+    "message": "",
+    "token": "",
+  },
+}
+`;
