@@ -10,10 +10,13 @@ import setAuthToken from "./helpers/setAuthToken"
 import store from "./redux/store.js"
 import {
   setCurrentUser, logoutUser
-} from "redux/actions/auth/setCurrentUser"
+} from "./redux/actions/auth/setCurrentUser"
 import PrivateRoute from "./HOC/PrivateRouter";
 import tokenChecker from "./helpers/tokenChecker"
 
+// Components
+import Nav from "./components/commons/Nav";
+import LoginView from "./views/LoginView"
 
 if (localStorage.getItem("jwt_token")) {
   try {
@@ -50,8 +53,9 @@ class App extends React.Component {
         <BrowserRouter>
           <ToastContainer autoClose={3000} />
           <div className="App">
+            <Nav />
             <Switch>
-              {/* <Route exact path="/login" component={LoginView} /> */}
+              <Route exact path="/login" component={LoginView} />
               {/* <PrivateRoute exact path="/tasks" component={TasksView} /> */}
             </Switch>
           </div>

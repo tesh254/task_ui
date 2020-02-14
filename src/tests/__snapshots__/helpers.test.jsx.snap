@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test helpers should test set auth token function 1`] = `undefined`;
+
+exports[`test helpers should test set auth token with token present 1`] = `undefined`;
+
+exports[`test helpers test tokenChecker method with token in localstorage 1`] = `undefined`;

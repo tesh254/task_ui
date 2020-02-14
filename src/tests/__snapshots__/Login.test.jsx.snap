@@ -1,0 +1,527 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shallow to render login form renders correctly 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <h1
+    className="title is-3"
+  >
+    Log In
+  </h1>
+  <div
+    className="field"
+  >
+    <p
+      className="control"
+    >
+      <input
+        className="input"
+        name="phonenumber"
+        onChange={[MockFunction]}
+        placeholder="Phone Number"
+        type="text"
+      />
+    </p>
+  </div>
+  <div
+    className="field"
+  >
+    <p
+      className="control"
+    >
+      <input
+        className="input"
+        name="password"
+        onChange={[MockFunction]}
+        placeholder="Password"
+        type="password"
+      />
+    </p>
+  </div>
+  <div
+    className="field"
+  >
+    <p
+      className="control"
+    >
+      <button
+        className="button is-success is-fullwidth"
+        type="submit"
+      >
+        Login
+      </button>
+    </p>
+  </div>
+</form>
+`;
+
+exports[`Test Login Container should render login container correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "4ldw89",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "4ldw89",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <withRouter(Connect(LoginContainer))
+        isLoading={false}
+        loginUser={[MockFunction]}
+      >
+        <Connect(LoginContainer)
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "key": "4ldw89",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "key": "4ldw89",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          isLoading={false}
+          location={
+            Object {
+              "hash": "",
+              "key": "4ldw89",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          loginUser={[MockFunction]}
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+        >
+          <LoginContainer
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "4ldw89",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "4ldw89",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            isLoading={true}
+            location={
+              Object {
+                "hash": "",
+                "key": "4ldw89",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            loginUser={[Function]}
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <section
+              className="has-text-centered"
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <LoginForm
+                handleSubmit={[Function]}
+                loading={true}
+                onChange={[Function]}
+              >
+                <form
+                  onSubmit={[Function]}
+                >
+                  <h1
+                    className="title is-3"
+                  >
+                    Log In
+                  </h1>
+                  <div
+                    className="field"
+                  >
+                    <p
+                      className="control"
+                    >
+                      <input
+                        className="input"
+                        name="phonenumber"
+                        onChange={[Function]}
+                        placeholder="Phone Number"
+                        type="text"
+                      />
+                    </p>
+                  </div>
+                  <div
+                    className="field"
+                  >
+                    <p
+                      className="control"
+                    >
+                      <input
+                        className="input"
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="Password"
+                        type="password"
+                      />
+                    </p>
+                  </div>
+                  <div
+                    className="field"
+                  >
+                    <p
+                      className="control"
+                    >
+                      <button
+                        className="button is-success is-fullwidth"
+                        type="submit"
+                      >
+                        Login
+                      </button>
+                    </p>
+                  </div>
+                </form>
+              </LoginForm>
+            </section>
+          </LoginContainer>
+        </Connect(LoginContainer)>
+      </withRouter(Connect(LoginContainer))>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`Test Login Container should render login view correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "66z1mc",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "66z1mc",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <_default
+        isLoading={false}
+        loginUser={[MockFunction]}
+      >
+        <withRouter(Connect(LoginContainer))>
+          <Connect(LoginContainer)
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "66z1mc",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "66z1mc",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "key": "66z1mc",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <LoginContainer
+              history={
+                Object {
+                  "action": "POP",
+                  "block": [Function],
+                  "canGo": [Function],
+                  "createHref": [Function],
+                  "entries": Array [
+                    Object {
+                      "hash": "",
+                      "key": "66z1mc",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                  ],
+                  "go": [Function],
+                  "goBack": [Function],
+                  "goForward": [Function],
+                  "index": 0,
+                  "length": 1,
+                  "listen": [Function],
+                  "location": Object {
+                    "hash": "",
+                    "key": "66z1mc",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                  "push": [Function],
+                  "replace": [Function],
+                }
+              }
+              isLoading={true}
+              location={
+                Object {
+                  "hash": "",
+                  "key": "66z1mc",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              loginUser={[Function]}
+              match={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+            >
+              <section
+                className="has-text-centered"
+                style={
+                  Object {
+                    "display": "flex",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <LoginForm
+                  handleSubmit={[Function]}
+                  loading={true}
+                  onChange={[Function]}
+                >
+                  <form
+                    onSubmit={[Function]}
+                  >
+                    <h1
+                      className="title is-3"
+                    >
+                      Log In
+                    </h1>
+                    <div
+                      className="field"
+                    >
+                      <p
+                        className="control"
+                      >
+                        <input
+                          className="input"
+                          name="phonenumber"
+                          onChange={[Function]}
+                          placeholder="Phone Number"
+                          type="text"
+                        />
+                      </p>
+                    </div>
+                    <div
+                      className="field"
+                    >
+                      <p
+                        className="control"
+                      >
+                        <input
+                          className="input"
+                          name="password"
+                          onChange={[Function]}
+                          placeholder="Password"
+                          type="password"
+                        />
+                      </p>
+                    </div>
+                    <div
+                      className="field"
+                    >
+                      <p
+                        className="control"
+                      >
+                        <button
+                          className="button is-success is-fullwidth"
+                          type="submit"
+                        >
+                          Login
+                        </button>
+                      </p>
+                    </div>
+                  </form>
+                </LoginForm>
+              </section>
+            </LoginContainer>
+          </Connect(LoginContainer)>
+        </withRouter(Connect(LoginContainer))>
+      </_default>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;

@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test app component should render properly 1`] = `
+<App>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <BrowserRouter>
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <ToastContainer
+          autoClose={3000}
+          bodyClassName={null}
+          className={null}
+          closeButton={
+            <CloseButton
+              ariaLabel="close"
+            />
+          }
+          closeOnClick={true}
+          draggable={true}
+          draggablePercent={80}
+          hideProgressBar={false}
+          newestOnTop={false}
+          pauseOnFocusLoss={true}
+          pauseOnHover={true}
+          position="top-right"
+          progressClassName={null}
+          progressStyle={null}
+          role="alert"
+          rtl={false}
+          style={null}
+          toastClassName={null}
+          transition={[Function]}
+        >
+          <div
+            className="Toastify"
+          />
+        </ToastContainer>
+        <div
+          className="App"
+        >
+          <Nav>
+            <nav
+              aria-label="main navigation"
+              className="navbar"
+              role="navigation"
+            >
+              <div
+                className="navbar-brand"
+              >
+                <a
+                  className="navbar-item"
+                  href="https://bulma.io"
+                  style={
+                    Object {
+                      "fontSize": "18pt",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Tasks
+                </a>
+                <a
+                  aria-expanded="false"
+                  aria-label="menu"
+                  className="navbar-burger"
+                  role="button"
+                >
+                  <span
+                    aria-hidden="true"
+                  />
+                  <span
+                    aria-hidden="true"
+                  />
+                  <span
+                    aria-hidden="true"
+                  />
+                </a>
+              </div>
+            </nav>
+          </Nav>
+          <Switch />
+        </div>
+      </Router>
+    </BrowserRouter>
+  </Provider>
+</App>
+`;
