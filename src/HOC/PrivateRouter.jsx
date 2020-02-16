@@ -7,7 +7,7 @@ const PrivateRoute = ({ component: Component, auth, ...rest }) => (
   <Route
     {...rest}
     render={props =>
-      localStorage.getItem("jwt_token") ||
+      !localStorage.getItem("jwt_token") ||
       localStorage.getItem("jwt_token") === undefined ? (
         <Redirect to="login" />
       ) : (

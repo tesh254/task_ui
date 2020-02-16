@@ -1,0 +1,41 @@
+.task-list {
+    margin: 25px;
+}
+
+.task-list .task-item {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 15px;
+}
+
+.task-list .task-item span {
+    display: inline-block;
+}
+
+.task_id {
+    float: left;
+}
+
+.task_id::before {
+    content: "Task ID ->"
+}
+
+.customer_details {
+    float: right;
+}
+
+.personel-name {
+    float: left;
+}
+
+.personel-name::before {
+    content: "Personnel Details -> "
+}
+
+.status {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.comment::before {
+    content: "Comments -> "
+}

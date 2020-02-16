@@ -2,7 +2,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 import { ERROR, LOADING, LOGIN_SUCCESS } from "../../type";
 
-const loginUser = async data => async dispatch => {
+const loginUser = data => async dispatch => {
   dispatch({
     type: LOADING
   });

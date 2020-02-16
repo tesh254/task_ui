@@ -21,7 +21,7 @@ const loginReducer = (state = initialState, action) => {
     case LOGIN_SUCCESS:
       let token;
 
-      token = action.payload.access_token;
+      token = action.payload.accessToken;
       localStorage.setItem("jwt_token", token);
       return {
         ...state,
